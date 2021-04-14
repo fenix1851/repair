@@ -1,0 +1,37 @@
+.navbar
+    &-block
+        display: flex
+        justify-content: space-between
+    &__info
+        display: flex
+        align-items: center
+    &__contacts
+        display: flex
+        flex-direction: column
+        text-align: right
+        margin-right: 30px
+
+    @media ( max-width: 768px )
+        margin-bottom: 17px
+        margin-top: 17px 
+        .navbar
+            &__contacts
+                display: none
+    
+    @media ( max-width: 356px )
+        .navbar
+            margin-bottom: 17px
+            margin-top: 17px 
+            &__logo
+                width: 91px
+                height: 44px
+            &__button
+                padding: 15px 30px
+                font-size: 10px
+                font-weight: 400
+    &__phone
+        text-decoration: none
+        color: $a-color
+        font-size: 20px
+        font-weight: 400
+        margin-top: 10px
