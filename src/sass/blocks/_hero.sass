@@ -10,10 +10,11 @@
 
 .hero
     background-color: $light-color
+    padding-top: 90px
+    padding-bottom: 50px
     &-block
         display: flex
-        justify-content: space-between
-        padding: 90px 0 90px
+        justify-content: space-between 
 
     &-image
         width: 50%
@@ -23,6 +24,7 @@
     &-text
         width: 50%
         &__title
+            +bold
             margin: 0
             font-weight: 700
             font-size: 41px
@@ -50,6 +52,8 @@
             display: flex
             align-items: center
             margin-bottom: 25px
+            &:last-child
+                margin-bottom: 0
         &__text
             line-height: 24px
 @media ( max-width: 768px )
@@ -70,6 +74,8 @@
         &-list
             &__item
                 margin-bottom: 13px
+                &:last-child
+                    margin-bottom: 40px
             &__image
                 margin-right: 15px
             &__text

@@ -1,6 +1,13 @@
+*
+    box-sizing: border-box
+    
 body
     +light
+    color: $a-color
     
+.section
+    padding: 90px 0
+
 .container
     width: 1170px
     margin: auto
@@ -31,3 +38,6 @@ img
     font-weight: 400
     font-size: 13px
     border-radius: 10px
+    transition: .3s linear
+    &:hover
+        background-color: lighten($main-color,20% )
