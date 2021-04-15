@@ -1,5 +1,21 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl Light';
+  src: url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.eot");
+  src: local("MuseoSansCyrl-300"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl Bold';
+  src: url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.eot");
+  src: local("MuseoSansCyrl-700"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Museo Sans Cyrl Light', sans-serif;
 }
 
 .container {
@@ -59,6 +75,14 @@ img {
   margin-right: 30px;
 }
 
+.navbar__region {
+  font-size: 13px;
+}
+
+.navbar__button {
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
+}
+
 @media (max-width: 768px) {
   .navbar {
     margin-bottom: 17px;
@@ -81,7 +105,6 @@ img {
   .navbar .navbar__button {
     padding: 15px 30px;
     font-size: 10px;
-    font-weight: 400;
   }
 }
 
@@ -89,8 +112,8 @@ img {
   text-decoration: none;
   color: #333333;
   font-size: 20px;
-  font-weight: 400;
   margin-top: 10px;
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
 }
 
 .hero {
@@ -122,6 +145,7 @@ img {
 }
 
 .hero-text__subtitle {
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
   font-size: 20px;
   font-weight: 700;
   display: inline-block;

@@ -10,7 +10,10 @@
         flex-direction: column
         text-align: right
         margin-right: 30px
-
+    &__region
+        font-size: 13px
+    &__button
+        +bold
     @media ( max-width: 768px )
         margin-bottom: 17px
         margin-top: 17px 
@@ -28,10 +31,9 @@
             &__button
                 padding: 15px 30px
                 font-size: 10px
-                font-weight: 400
     &__phone
         text-decoration: none
         color: $a-color
         font-size: 20px
-        font-weight: 400
         margin-top: 10px
+        +bold
