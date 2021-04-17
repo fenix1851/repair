@@ -463,12 +463,101 @@ img {
   margin-bottom: 100px;
 }
 
-.slider__item img {
-  margin: auto;
-}
-
 .section__portfolio {
   background: repeat-y url("/src/img/portfolio-img/portfolio-background.jpg") #f5f5f5;
   background-position-x: left;
   background-size: 50%;
+}
+
+.price-section {
+  padding-top: 100px;
+}
+
+.price-section__title {
+  margin: auto;
+  margin-bottom: 53px;
+  width: 535px;
+  line-height: 45px;
+}
+
+.price-section__subtitle {
+  display: block;
+  text-align: center;
+  margin-bottom: 59px;
+}
+
+.card {
+  border: 1px solid #e8e8e8;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  transition: .3s;
+  text-align: center;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-image:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #ffd200 0%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0;
+  transition: .3s;
+}
+
+.card-image__image {
+  display: block;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .card-image:before {
+  opacity: 1;
+}
+
+.card:hover .card__link::after {
+  height: 12px;
+}
+
+.card__title {
+  margin-top: 39px;
+  font-size: 18px;
+  font-family: 'Museo Sans Cyrl Light', sans-serif;
+  text-align: center;
+}
+
+.card__link {
+  display: inline-block;
+  color: #333333;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 31px;
+  position: relative;
+  font-family: 'Museo Sans Cyrl Bold', sans-serif;
+}
+
+.card__link::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  display: block;
+  background: #ffd200;
+  bottom: -4px;
+  left: 0;
+  transition: .3s;
+  z-index: -1;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
