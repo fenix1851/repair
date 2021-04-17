@@ -7,6 +7,13 @@ body
     
 .section
     padding: 90px 0
+    &-title
+        +bold
+        font-size: 30px
+        text-align: center
+    &-subtitle
+        display: inline-block
+        font-size: 16px
 
 .container
     width: 1170px
@@ -41,3 +48,16 @@ img
     transition: .3s linear
     &:hover
         background-color: lighten($main-color,20% )
+
+.arrow-up
+    position: fixed
+    font-size: 40px
+    top: 50%
+    right: 50px
+
+.slider-arrows
+    margin: auto
+    margin-top: 60px
+    width: 120px
+    display: flex
+    justify-content: space-between
