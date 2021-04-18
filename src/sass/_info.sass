@@ -49,11 +49,15 @@ img
     &:hover
         background-color: lighten($main-color,20% )
 
-.arrow-up
-    position: fixed
-    font-size: 40px
-    top: 50%
-    right: 50px
+.arrow
+    &-up, &-down 
+        position: fixed
+        font-size: 40px
+        top: 50%
+        right: 50px
+        color: $main-color
+    &-down
+        top: 55%
 
 .slider-arrows
     margin: auto

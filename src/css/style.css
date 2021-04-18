@@ -83,11 +83,16 @@ img {
   background-color: #ffe466;
 }
 
-.arrow-up {
+.arrow-up, .arrow-down {
   position: fixed;
   font-size: 40px;
   top: 50%;
   right: 50px;
+  color: #ffd200;
+}
+
+.arrow-down {
+  top: 55%;
 }
 
 .slider-arrows {
