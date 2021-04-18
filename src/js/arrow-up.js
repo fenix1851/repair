@@ -5,6 +5,6 @@ $(document).ready(function(){
 
     arrowUp.on('click', function(){
     
-        site.animate({scrollTop:2500 }, 17000);
+        site.animate({scrollTop();})
     });
 });

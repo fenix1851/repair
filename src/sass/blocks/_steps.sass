@@ -1,0 +1,42 @@
+.steps-section
+    text-align: center
+    margin-bottom: 100px
+    &__title
+        max-width: 670px
+        line-height: 45px
+        margin: auto
+        margin-top: 72px
+        margin-bottom: 60px
+    &__subtitle
+        margin-bottom: 60px
+    &__block
+        display: flex
+        justify-content: space-around
+.step
+    position: relative
+    &-image
+        width: 100px
+        height: 100px
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: auto
+        border: 3px solid $main-color
+        border-radius: 100px
+        margin-bottom: 30px
+    &__text
+        display: block
+        +bold
+        max-width: 146px
+        line-height: 20px
+        font-size: 14px
+    &::after
+        top: -11px
+        left: 155px
+        position: absolute
+        content: url('/src/img/steps-img/rounded-arrow.png')
+        width: 72px
+        height: 25px
+    &:last-child
+        &::after
+           display: none 
