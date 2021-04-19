@@ -85,7 +85,7 @@
             <!-- /.container -->
         </section>
         <!-- /.hero -->    
-        <section class="offer section ">
+        <section class="offer section wow fadeIn" data-wow-offset="300" data-wow-duration=".8s">
             <div class="container">
                 <div class="offer-block wow fadeIn" data-wow-offset='500'>
                     <h3 class="section-title offer-title ">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h3>
@@ -93,8 +93,8 @@
                     <span class="section-subtitle offer-subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
                     <!-- /.section-subtitle -->
                     <form action="form" class="input-form">
-                        <input type="text" class="input-form__input" placeholder="Ваше имя">
-                        <input type="text" class="input-form__input" placeholder="Ваш телефон">
+                        <input type="text" class="input-form__input input" placeholder="Ваше имя">
+                        <input type="text" class="input-form__input input" placeholder="Ваш телефон">
                     </form>
                     <!-- /.input-form -->
                     <button class="button offer__button">Получить бесплатный дизайн-проект</button>
@@ -112,7 +112,7 @@
             <!-- /.container -->
         </section>
         <!-- /.offer -->      
-        <section class="section section__portfolio wow fadeInUp" data-wow-offset="20" data-wow-duration="1s">
+        <section class="section section__portfolio wow fadeIn" data-wow-offset="20" data-wow-duration="1s">
             <div class="container">
                 <h3 class="section-title portfolio-title wow fadeInLeft" data-wow-offset="200">Работая с 2007 года,<br>мы сделали более 500 ремонтов в квартирах и домах</h3>
                 <!-- /.section_title -->
@@ -254,9 +254,9 @@
             <!-- /.container -->
         </section>
         <!-- /.steps-section -->
-        <section class="section section-condition wow fadeIn" data-wow-offset="200">
+        <section class="section section-condition wow fadeIn" data-wow-offset="500">
             <div class="container">
-                <h3 class="section-condition__title wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="100" data-wow-duration="2s" >Ремонт обойдется Вам дешевле, так как <br> мы используем качественные материалы по оптовым ценам</h3>
+                <h3 class="section-condition__title wow fadeInLeft" data-wow-delay=".5s" data-wow-offset="400" data-wow-duration="2s" >Ремонт обойдется Вам дешевле, так как <br> мы используем качественные материалы по оптовым ценам</h3>
                 <!-- /.section-condition__title -->
             </div>
             <!-- /.container -->
@@ -314,8 +314,92 @@
             </div>
         </section>
         <!-- /.section section-contracts -->
+        <section class="section brif-section wow fadeIn" data-wow-offset="150">
+            <div class="container">
+                <div class="brif-inner">
+                    <div class="brif-list wow fadeInLeftBig" data-wow-offset="50">
+                        <h3 class="section__title brif-list__title">Мы можем озвучить Вам примерную стоимость работы и материалов по телефону</h3>  
+                        <span class="subtitle brif-section__subtitle">Для этого нужно ответить на 4 вопроса:</span>
+                        <!-- /.subtitle brif-section__subtitle -->
+                        <ul class="brif-section-list">
+                            <li class="brif-section-list-item"><span class="brif-section-list-item-number">1.</span>
+                                <!-- /.brif-cection-list-item-number --><span class="brif-section-list-item-text">Какова площадь помещения?</span>
+                                <!-- /.brif-section-list-item-text --></li>
+                            <!-- /.brif-section-list-item -->
+                            <li class="brif-section-list-item"><span class="brif-section-list-item-number">2.</span>
+                                <!-- /.brif-cection-list-item-number --><span class="brif-section-list-item-text">У Вас новостройка или вторичное жилье?</span>
+                                <!-- /.brif-section-list-item-text --></li>
+                            <!-- /.brif-section-list-item -->
+                            <li class="brif-section-list-item"><span class="brif-section-list-item-number">3.</span>
+                                <!-- /.brif-cection-list-item-number --><span class="brif-section-list-item-text">Где находится помещение, в котором будет производиться ремонт?</span>
+                                <!-- /.brif-section-list-item-text --></li>
+                            <!-- /.brif-section-list-item -->
+                            <li class="brif-section-list-item"><span class="brif-section-list-item-number">4.</span>
+                                <!-- /.brif-cection-list-item-number --><span class="brif-section-list-item-text">Назначение помещения?</span>
+                                <!-- /.brif-section-list-item-text --></li>
+                            <!-- /.brif-section-list-item -->
+                        </ul>
+                        <!-- /.brif-section-list -->    
+                    </div>
+                    <!-- /.brif-list -->
+                    <div class="brif-form wow fadeInRightBig" data-wow-offset="50">
+                        <h3 class="brif-form__title title">Оставьте заявку на бесплатный расчет ремонта по телефону</h3>
+                        <!-- /.brif-form title -->
+                        <span class="brif-form__subtitle subtitle">Для этого заполните форму ниже</span>
+                        <!-- /.brif-form subtitle -->
+                        <form action="" class="brif-form__form" id='brifForm'>
+                            <input name="username" type="text" class="brif-form__name input" placeholder="Ваше имя">
+                            <input name="usertel" type="tel" class="brif-form__tel input" placeholder="Ваш телефон">
+                            <input name="useremail" type="email" class="brif-form__email input" placeholder="Ваш email">
+                            <button class="brif-form__button">Рассчитать стоимость</button>
+                            <!-- /.brif-form__calculate -->
+                        </form>
+                        <!-- /.brif-form__form -->
+                        <span class="subtitle brif-form-suptitle">Мы перезвоним Вам в течение 60 секунд</span>
+                    </div>
+                    <!-- /.brif-form -->
+                </div>
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.section brif-section -->
     </main>
-
+    <footer class="footer-section">
+        <div class="footer-map wow fadeIn" data-wow-offset="100" data-wow-duration="2s">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A89bbca1ed559d27b59c20e4b35423959a844925b876b9ee78ae15ea2155fdd57&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp;scroll=false"></script>
+        </div>
+        <!-- /.map -->
+        <div class="footer-welcome">
+            <div class="container">
+                    <h3 class="footer-title wow fadeInRightBig" data-wow-offset="400" data-wow-duration="1.5s">Приезжайте к нам в гости! Проконсультируем Вас <br> по всем вопросам ремонта</h3>
+                    <!-- /.footer-title -->
+                    <ul class="footer-list">
+                        <li class="footer-list-item wow fadeInUp" data-wow-offset="280" data-wow-delay="0.1s">
+                            <div class="footer-list-item__image"><img src="/src/img/footer-img/map.png" alt=""></div>
+                            <!-- /.footer-list-item__image -->
+                            <span class="footer-list-item__text">г. Москва <div class="bold">ул. Ленина, д. 10, корпус 2, оф. 308</div></span>
+                        </li>
+                        <!-- /.footer-list__item -->
+                        <li class="footer-list-item wow fadeInUp" data-wow-offset="200" data-wow-delay="0.2s">
+                            <div class="footer-list-item__image"><img src="/src/img/footer-img/clock.png" alt=""></div>
+                            <!-- /.footer-list-item__image -->
+                            <span class="footer-list-item__text">Режим работы:<div class="bold">с 9:00 до 18:00</div></span>
+                        </li>
+                        <!-- /.footer-list__item -->
+                        <li class="footer-list-item wow fadeInUp" data-wow-offset="100" data-wow-delay="0.3s">
+                            <div class="footer-list-item__image"><img src="/src/img/footer-img/phone.png" alt=""></div>
+                            <!-- /.footer-list-item__image -->
+                            <span class="footer-list-item__text">Телефон:     <div class="bold"> + 7 (495) 42-251-31</div></span>
+                        </li>
+                        <!-- /.footer-list__item -->
+                    </ul>
+                    <!-- /.footer-list -->
+                </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.welcome -->
+    </footer>
+    <!-- /.footer-section -->
 <!-- всплывающее окно -->
 <div class="modal" id="modal">
     <div class="modal-inner">
@@ -350,6 +434,12 @@
 <!-- импорт библиотеки WOW.js -->
 <script src='src/js/wow.min.js'></script>
 
+<!-- импорт библиотеки JQuerry validate -->
+<script src="src/js/jquery.validate.min.js"></script>
+
+<!-- импорт плагина JQuerry mask -->
+<script src="src/js/jquery.mask.min.js"></script>
+
 <!-- подгрузка библиотеки слайдеров slick.js -->
 <!-- <script src="src/js/slick.min.js"></script> -->
 <!-- скрипт для слайдера -->
@@ -357,6 +447,39 @@
     // скрипт слайдера
     new WOW().init();
     $(document).ready(function(){
+        // validation
+        $("#brifForm").validate({
+            errorClass: 'invalide',
+            errorElement: 'div',
+            rules: {
+                username: { 
+                    required: true,
+                    minlength: 2,
+                    maxlength: 15
+            } ,
+                usertel: "required",
+                useremail: "required"
+            },
+            messages: {
+                username: {
+                    required: 'Заполните поле',
+                    minlength: 'Минимальная длинна имени: 2 символа',
+                    maxlength: 'Максимальная длинна имени: 15 символов'
+                },
+
+                usertel: {
+                    required: 'Заполните поле'
+                },
+                useremail: {
+                    required: 'Заполните поле',
+                    email: 'Введите корректный email'
+                }
+            }
+            
+        });
+        // Маска для телефона
+        $('.brif-form__tel').mask('+7-000-000-00-00');
+        // Слайдер
         $('.owl-carousel').owlCarousel({
         items: 3,
         nav: true,

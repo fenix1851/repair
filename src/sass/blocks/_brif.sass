@@ -1,0 +1,75 @@
+.brif
+    &-section
+        background-image: url('/src/img/brif-img/background-color.jpg'), url('/src/img/brif-img/background-image.jpg')
+        background-position: left center, right center
+        background-size: 50% , contain
+        background-repeat: repeat-y, no-repeat
+        &-list
+            display: flex
+            flex-direction: column
+            padding-left: 0
+            list-style-type: none
+            margin-top: 94px
+            &-item
+                display: flex
+                align-items: center
+                margin-bottom: 25px
+                +bold
+                &::last-child
+                    margin-bottom: 0
+                &-number
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-size: 14px
+                    width: 35px
+                    height: 35px
+                    border: 2px solid $a-color
+                    border-radius: 35px
+                    margin-right: 32px
+                &-text
+                    max-width: 379px
+    &-form
+        text-align: center
+        &__title
+            margin: auto
+            max-width: 336px
+            margin-bottom: 52px
+            margin-top: 0
+            line-height: 33px
+        &__subtitle
+            display: block
+            margin: auto
+        &__name, &__tel, &__email
+            display: block
+            padding: 26px 
+            max-height: 65
+            width: 370px
+            border-radius: 10px
+        &__name
+            margin-top: 50px
+            margin-bottom: 15px
+        &__tel
+            margin-bottom: 15px
+        &__email
+            margin-bottom: 30px
+        &__button
+            display: block
+            background-color: $main-color
+            text-align: center
+            padding: 28px 98px 28px 98px
+            border: none
+            border-radius: 10px
+            margin-bottom: 33px
+        &__suptitle
+            text-align: center
+
+    &-inner
+        display: flex
+        justify-content: space-between
+    &-list
+        &__title
+            max-width: 515px
+            margin-top: 0
+            margin-bottom: 50px
+            line-height: 33px
