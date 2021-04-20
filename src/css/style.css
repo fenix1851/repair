@@ -83,18 +83,6 @@ img {
   background-color: #ffe466;
 }
 
-.arrow-up, .arrow-down {
-  position: fixed;
-  font-size: 40px;
-  top: 50%;
-  right: 50px;
-  color: #ffd200;
-}
-
-.arrow-down {
-  top: 55%;
-}
-
 .slider-arrows {
   margin: auto;
   margin-top: 60px;
@@ -794,7 +782,7 @@ img {
 .footer-welcome {
   width: 50%;
   padding-top: 100px;
-  padding-left: 215px;
+  padding-left: 215pxg;
 }
 
 .footer-map {
