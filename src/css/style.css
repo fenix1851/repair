@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Museo Sans Cyrl Light';
-  src: url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.eot");
-  src: local("MuseoSansCyrl-300"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.woff") format("woff");
+  src: url("../fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.eot");
+  src: local("MuseoSansCyrl-300"), url("../fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo-Sans-Cyrl/MuseoSansCyrl-300.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Museo Sans Cyrl Bold';
-  src: url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.eot");
-  src: local("MuseoSansCyrl-700"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("/src/fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.woff") format("woff");
+  src: url("../fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.eot");
+  src: local("MuseoSansCyrl-700"), url("../fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo-Sans-Cyrl/MuseoSansCyrl-700.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
@@ -449,40 +449,6 @@ img {
   }
 }
 
-.modal {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  justify-content: center;
-  align-items: center;
-  display: none;
-}
-
-.modal_active {
-  display: flex;
-}
-
-.modal-inner {
-  background-color: #fff;
-  width: 400px;
-  height: 200px;
-  padding: 20px;
-  position: relative;
-}
-
-.modal__close {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
-
-.modal__title {
-  font-size: 35px;
-}
-
 .portfolio-title {
   width: 800px;
   margin: auto;
@@ -490,7 +456,7 @@ img {
 }
 
 .section__portfolio {
-  background: repeat-y url("/src/img/portfolio-img/portfolio-background.jpg") #f5f5f5;
+  background: repeat-y url("../img/portfolio-img/portfolio-background.jpg") #f5f5f5;
   background-position-x: left;
   background-size: 50%;
 }
@@ -638,7 +604,7 @@ img {
   top: -11px;
   left: 155px;
   position: absolute;
-  content: url("/src/img/steps-img/rounded-arrow.png");
+  content: url("../img/steps-img/rounded-arrow.png");
   width: 72px;
   height: 25px;
 }
@@ -713,7 +679,7 @@ img {
 }
 
 .brif-section {
-  background-image: url("/src/img/brif-img/background-color.jpg"), url("/src/img/brif-img/background-image.jpg");
+  background-image: url("../img/brif-img/background-color.jpg"), url("../img/brif-img/background-image.jpg");
   background-position: left center, right center;
   background-size: 50% , contain;
   background-repeat: repeat-y, no-repeat;
